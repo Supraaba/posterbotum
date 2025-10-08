@@ -208,7 +208,7 @@ async def scheduler(app):
 
 # ✅ MAIN START
 async def main():
-    app = ApplicationBuilder().token("8406638110:AAHBUdppB6eLQszm0yVIeXgGkqd7nQ04Nnw").build()
+    app = ApplicationBuilder().token("8250247661:AAEBXiRpnfBVoKGj9t2gsGzMyMW754ZNMR0").build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CallbackQueryHandler(button_handler))
     app.add_handler(MessageHandler(filters.TEXT | filters.PHOTO, message_handler))
